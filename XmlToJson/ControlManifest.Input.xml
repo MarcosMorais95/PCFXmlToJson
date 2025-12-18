@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control
+    namespace="PCFXmlToJson"
+    constructor="XmlToJson"
+    version="1.0.2"
+    display-name-key="XmlToJson"
+    description-key="XmlToJson_Description"
+    control-type="standard">
+
+    <!-- Output: JSON string (array of ConvertedFile) -->
+    <property
+      name="jsonResult"
+      display-name-key="jsonResult_DisplayName"
+      description-key="jsonResult_Description"
+      of-type="SingleLine.TextArea"
+      usage="output"
+      required="false" />
+
+    <!-- Input: external reset trigger -->
+    <property
+      name="Reset"
+      display-name-key="Reset_DisplayName"
+      description-key="Reset_Description"
+      of-type="Whole.None"
+      usage="input"
+      required="false" />
+
+    <!-- Input: allow selecting multiple files -->
+    <property
+      name="AllowMultiple"
+      display-name-key="AllowMultiple_DisplayName"
+      description-key="AllowMultiple_Description"
+      of-type="TwoOptions"
+      usage="input"
+      required="false" />
+
+    <!-- Input: show/hide JSON textarea + copy button -->
+    <property
+      name="IsSchemaVisible"
+      display-name-key="IsSchemaVisible_DisplayName"
+      description-key="IsSchemaVisible_Description"
+      of-type="TwoOptions"
+      usage="input"
+      required="false" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+  </control>
+</manifest>

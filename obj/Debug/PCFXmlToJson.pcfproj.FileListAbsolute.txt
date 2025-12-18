@@ -1,0 +1,2 @@
+C:\PCFXmlToJson\obj\Debug\PCFXmlToJson.pcfproj.AssemblyReference.cache
+C:\PCFXmlToJson\obj\Debug\PCFXmlToJson.pcfproj.CoreCompileInputs.cache
