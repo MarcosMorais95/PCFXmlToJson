@@ -17,7 +17,11 @@ A Power Apps Component Framework (PCF) control that lets users upload one or mul
 - Supports an **external reset** (triggered from the host app) to clear the current state without needing a “Reset” button inside the control.
 
 ---
+## Usage
 
+Click here to [Download](https://github.com/MarcosMorais95/PCFXmlToJson/releases/tag/v1.0.1) the managed solution that you can use to import the control into your environment:
+
+---
 ## Key features
 
 - **Single or multi-file mode** via a boolean property.
@@ -39,3 +43,6 @@ The output is a JSON string representing an array of converted files:
     "content": { "...converted xml content..." }
   }
 ]
+
+
+
