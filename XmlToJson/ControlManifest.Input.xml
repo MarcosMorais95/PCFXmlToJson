@@ -3,7 +3,7 @@
   <control
     namespace="PCFXmlToJson"
     constructor="XmlToJson"
-    version="1.0.2"
+    version="1.0.3"
     display-name-key="XmlToJson"
     description-key="XmlToJson_Description"
     control-type="standard">
