@@ -19,7 +19,7 @@ A Power Apps Component Framework (PCF) control that lets users upload one or mul
 ---
 ## Usage
 
-Click here to [Download](https://github.com/MarcosMorais95/PCFXmlToJson/releases/tag/v1.0.1) the managed solution that you can use to import the control into your environment:
+Click here to [Download](https://github.com/MarcosMorais95/PCFXmlToJson/releases/tag/v1.0.1) the managed solution.
 
 ---
 ## Key features
